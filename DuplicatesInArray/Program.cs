@@ -12,8 +12,7 @@ for (int i = 0; i < array.Length; i++)
     }
 }
 
-
-//Output without duplicate value
+//Remove duplicates & Output without duplicate value
 var array1 = new int[] { 2, 3, 3, 4, 1, 2, 5 };
 var distinct1 = array1.Distinct().ToArray();
 
